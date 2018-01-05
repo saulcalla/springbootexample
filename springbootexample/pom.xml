@@ -39,11 +39,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <!-- used for metrics like status, health etc -->
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+
         <dependency>
             <!-- used for unit tests -->
             <groupId>org.springframework.boot</groupId>
@@ -54,6 +50,12 @@
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter</artifactId>
         </dependency>
+        
+        <dependency>
+            <!-- used for metrics like status, health etc -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>        
     </dependencies>
  
 </project>
